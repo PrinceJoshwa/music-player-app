@@ -138,7 +138,7 @@ export const musicLibrary = {
     },
     {
       id: 8,
-      title: "Samajavaragamana",
+      title: "Samajavara gamana",
       artist: "Sid Sriram",
       cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738250544/sama_ktp6o0.jpg",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738227449/Samajavaragamana---Male-MassTamilan.io_mwygxs.mp3",
