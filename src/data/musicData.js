@@ -192,6 +192,13 @@ export const musicLibrary = {
       cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738251655/sunsaathiya_c6egov.png",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738220459/Sun_Saathiya_svqqrz.mp3",
     },
+    {
+      id: 28,
+      title: "Apna Bana le",
+      artist: "Arijit Singh",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738244208/apna_cfpzjf.jpg",
+      audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738231604/Apna_Bana_Le_-_Arijit_Singh_hqqusz.mp3",
+    },
     // Add more songs as needed
   ],
   recentlyPlayed: [
@@ -204,13 +211,20 @@ export const musicLibrary = {
     },
     {
       id: 17,
+      title: "Pehele Bhi Main",
+      artist: "Vishal Mishra",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738262518/pehlebhimain1_ijnu15.jpg",
+      audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738221058/Pehle_Bhi_Main_320_Kbps-_PagalWorld.Gay_jr89um.mp3",
+    },
+    {
+      id: 18,
       title: "Ae Dil Hai Mushkil",
       artist: "Arijit Singh",
       cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230975/AeDilHaiMushkil_adihlj.jpg",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738220231/01_Ae_Dil_Hai_Mushkil_-_Title_Song_Arijit_Singh_320kbps_jfcvkk.mp3",
     },
     {
-      id: 18,
+      id: 19,
       title: "Janam Janam",
       artist: "Arijit Singh",
       cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738239559/dilwale_b1zqkd.jpg",
@@ -219,49 +233,64 @@ export const musicLibrary = {
   ],
   trending: [
   {
-    id: 19,
+    id: 20,
     title: "Stereo Hearts",
     artist: " Gym Class Heroes",
     cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230877/steroheartss_h7ydj3.jpg",
     audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738220231/01_Ae_Dil_Hai_Mushkil_-_Title_Song_Arijit_Singh_320kbps_jfcvkk.mp3",
   },
   {
-    id: 20,
+    id: 21,
     title: "See You Again",
     artist: "Wiz Khalifa",
     cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230876/seeyouagain_oanpng.jpg",
     audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738228214/Wiz_Khalifa_-_See_You_Again_ft._Charlie_Puth_Official_Video_Furious_7_Soundtrack_mqdm6w.mp3",
   },
   {
-    id: 21,
+    id: 22,
     title: "Apna Bana le",
     artist: "Arijit Singh",
     cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738244208/apna_cfpzjf.jpg",
     audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738231604/Apna_Bana_Le_-_Arijit_Singh_hqqusz.mp3",
   },
+  {
+    id: 23,
+    title: "Sun Saathiya",
+    artist: "Divya Kumar, Priya Saraiya",
+    cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230875/sunsaathiya_o9igqf.jpg",
+    audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738220459/Sun_Saathiya_svqqrz.mp3",
+  },
   ],
   forYou: [
     {
-      id: 22,
+      id: 24,
       title: "Tum Se",
       artist: "Arijit Singh",
       cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738243899/images_29_jim6us.jpg",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738243120/Tum_Se_Teri_Baaton_Mein_Aisa_Uljha_Jiya_320_Kbps_bzrcpz.mp3",
     },
     {
-      id: 23,
+      id: 25,
       title: "Journey",
       artist: "Pradeep Kumar",
       cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738234687/journey_y0cwkd.jpg",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738233258/Journey-MassTamilan.fm_b5wia4.mp3",
     },
     {
-      id: 24,
+      id: 26,
       title: "Ishq De Fanniyar",
       artist: "Jyotica Tangri",
       cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738244012/Screenshot_2025-01-30_185509_jf4zzp.png",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738231620/320kbps_FR_2017_-_Ishq_De_Fanniyar_Female_haeoxf.mp3",
     },
+    {
+      id: 27,
+      title: "Kalank Title Track",
+      artist: "Arijit Singh",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230878/kalanak_umyue4.jpg",
+      audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738230689/Kalank-_Title-Track_-MassTamilan.io_o6plhh.mp3",
+    },
+
   ],
 }
 
