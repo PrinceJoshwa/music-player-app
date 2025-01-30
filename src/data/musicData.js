@@ -119,7 +119,7 @@ export const musicLibrary = {
       id: 5,
       title: "Adiye Kolluthey",
       artist: "Benny Dayal",
-      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230878/adiyekolluthey_gseiui.jpg",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738247600/Screenshot_2025-01-30_200057_ghzkq1.png",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738220534/Adiyae-Kolluthey-MassTamilan.com_isgjml.mp3",
     },
     {
@@ -133,14 +133,14 @@ export const musicLibrary = {
       id: 7,
       title: "Priyathama Priyathama",
       artist: "Chinmayi",
-      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230877/priyathama_pfd0a0.jpg",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738250739/priyathamapriyathama_noxn2v.jpg",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738221088/Priyathama_Priyathama_Lyrical_MAJILI_Naga_Chaitanya_Samantha_Divyansha_Kaushik_Telugu_songs_uycnrj.mp3",
     },
     {
       id: 8,
       title: "Samajavaragamana",
       artist: "Sid Sriram",
-      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230877/samajavaragamana_ed42uw.jpg",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738250544/sama_ktp6o0.jpg",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738227449/Samajavaragamana---Male-MassTamilan.io_mwygxs.mp3",
     },
     {
