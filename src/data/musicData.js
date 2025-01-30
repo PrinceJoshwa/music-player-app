@@ -182,14 +182,14 @@ export const musicLibrary = {
       id: 14,
       title: "Akkam Pakkam",
       artist: "Sadhana",
-      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230876/akkampakkam_tlpamx.jpg",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738252508/akkamm_nvxir4.jpg",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738220571/Akkam-Pakkam_f5sgyl.mp3",
     },
     {
       id: 15,
       title: "Sun Saathiya",
       artist: "Divya Kumar, Priya Saraiya",
-      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738230875/sunsaathiya_o9igqf.jpg",
+      cover: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1738251655/sunsaathiya_c6egov.png",
       audioUrl: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1738220459/Sun_Saathiya_svqqrz.mp3",
     },
     // Add more songs as needed
