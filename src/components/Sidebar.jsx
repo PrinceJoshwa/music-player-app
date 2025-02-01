@@ -81,14 +81,19 @@ export default function Sidebar({ activeTab, setActiveTab, isSidebarOpen, setIsS
       {isSidebarOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden" onClick={closeSidebar}></div>
       )}
-      <div
+      {/* <div
         className={`fixed inset-y-0 left-0 transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } md:relative md:translate-x-0 transition duration-200 ease-in-out md:flex md:flex-col md:justify-between z-40 w-64 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white`}
-      >
+      > */}
+      <div
+        className={`fixed inset-y-0 left-0 transform ${
+        isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+        } md:relative md:translate-x-0 transition duration-200 ease-in-out md:flex md:flex-col md:justify-between z-40 w-64 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white px-4`}
+        >
         <div>
           <header className="bg-gray-200 dark:bg-gray-700 p-4 shadow-md flex justify-between items-center">
-            <h1 className="text-xl font-bold">Music Player</h1>
+            <h1 className="text-xl font-bold">TuneBox🎧</h1>
             <button
               onClick={toggleTheme}
               className="p-1 rounded-md border border-gray-400 dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
