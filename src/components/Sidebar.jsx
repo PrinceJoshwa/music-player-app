@@ -92,7 +92,7 @@ export default function Sidebar({ activeTab, setActiveTab, isSidebarOpen, setIsS
         } md:relative md:translate-x-0 transition duration-200 ease-in-out md:flex md:flex-col md:justify-between z-40 w-64 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white px-4`}
         >
         <div>
-          <header className="bg-gray-200 dark:bg-gray-700 p-4 shadow-md flex justify-between items-center">
+          <header className="bg-gray-200 dark:bg-gray-700 p-4 shadow-md flex justify-between items-center w-60">
             <h1 className="text-xl font-bold">TuneBox🎧</h1>
             <button
               onClick={toggleTheme}
