@@ -96,7 +96,7 @@ export default function Sidebar({ activeTab, setActiveTab, isSidebarOpen, setIsS
             <h1 className="text-xl text-right font-bold">TuneBox🎧</h1>
             <button
               onClick={toggleTheme}
-              className="p-1 rounded-md border border-gray-400 dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+              className="p-1 rounded-full border border-gray-400 dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
               aria-label="Toggle theme"
             >
               {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
