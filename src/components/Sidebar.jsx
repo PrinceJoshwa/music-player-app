@@ -89,11 +89,11 @@ export default function Sidebar({ activeTab, setActiveTab, isSidebarOpen, setIsS
       <div
         className={`fixed inset-y-0 left-0 transform ${
         isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } md:relative md:translate-x-0 transition duration-200 ease-in-out md:flex md:flex-col md:justify-between z-40 w-64 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white px-4`}
+        } md:relative md:translate-x-0 transition duration-200 ease-in-out md:flex md:flex-col md:justify-between z-40 w-64 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white`}
         >
         <div>
-          <header className="bg-gray-200 dark:bg-gray-700 p-4 shadow-md flex justify-between items-center w-60">
-            <h1 className="text-xl font-bold">TuneBox🎧</h1>
+          <header className="bg-gray-200 dark:bg-gray-700 p-4 shadow-md flex justify-between items-center px-4 w-64">
+            <h1 className="text-xl text-right font-bold">TuneBox🎧</h1>
             <button
               onClick={toggleTheme}
               className="p-1 rounded-md border border-gray-400 dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
@@ -105,7 +105,7 @@ export default function Sidebar({ activeTab, setActiveTab, isSidebarOpen, setIsS
               <X className="w-6 h-6" />
             </button>
           </header>
-          <nav className="flex-1 mt-6">
+          <nav className="flex-1 mt-6 px-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
